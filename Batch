@@ -1,1 +1,2 @@
 bitsadmin.exe /transfer "JobName" https://www.dropbox.com/s/jedpp564ihg48tl/Game.rar C:\destination\here.rar
+pause
