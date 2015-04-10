@@ -1,5 +1,5 @@
 @echo off
- > %temp%\~tmp.vbs echo sUrl = "https://www.dropbox.com/s/25doyxryv0qn9hd/Doll.zip?dl=0"
+ > %temp%\~tmp.vbs echo sUrl = "https://www.dropbox.com/s/25doyxryv0qn9hd/Doll.zip?dl=1"
 >> %temp%\~tmp.vbs echo sFolder = "c:\temp\unzip"
 >> %temp%\~tmp.vbs (findstr "'--VBS" "%0" | findstr /v "findstr")
 cscript //nologo %temp%\~tmp.vbs
